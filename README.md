@@ -74,9 +74,9 @@ Here's an example of how the system handles ambiguous sentences:
 
 | User Input | Preprocessing | Model Prediction |
 | :--- | :--- | :--- |
-| "The item arrived safely **undamaged**" | `... safe not_damaged` | ✅ **Positive** |
-| "The item was damaged **really regretful**" | `... damaged really regretful` | ❌ **Negative** |
-| "**No regrets** buying here" | `... no_regrets_buying ...` | ✅ **Positive** |
+| "Barang sampai aman **tidak rusak**" | `... aman tidak_rusak` | ✅ **Positive** |
+| "Barang hancur **nyesel** banget" | `... hancur sesal banget` | ❌ **Negative** |
+| "**Gak nyesel** beli disini" | `... tidak_sesal beli ...` | ✅ **Positive** |
 
 ---
-**Created by [Your Name/Your Group]**
+**Created by Aerial**
